@@ -8,7 +8,7 @@ local HttpService = game:GetService("HttpService")
 local Player = Players.LocalPlayer
 
 
-local ZlexConfig = loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/cb9abaea16cbea7c"))()
+local ZlexConfig = loadstring(game:HttpGet("https://raw.githubusercontent.com/zzxzsss/moulders/refs/heads/main/Module.lua/tempo"))()
 
 -- Get settings from module
 local Identifier = ZlexConfig:GetIdentifier()
